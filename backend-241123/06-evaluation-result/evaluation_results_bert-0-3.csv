@@ -1,0 +1,242 @@
+query,expected_pages,found_pages,score_hit,score_find,page_1,score_1,text_1,page_2,score_2,text_2,page_3,score_3,text_3,page_4,score_4,text_4,page_5,score_5,text_5,page_6,score_6,text_6,page_7,score_7,text_7,page_8,score_8,text_8,page_9,score_9,text_9,page_10,score_10,text_10
+"301-1 Materials used by weight or volume Total weight or volume of materials that are used to produce and package the organization’s primary products and services during the reporting period, by: i. non-renewable materials used; ii. renewable materials used. Include raw materials, associated process materials, semi-manufactured goods, and packaging materials; report whether materials were purchased or sourced internally; report whether data are estimated or measured. Reported usage data should reflect the material in its original state.","[31, 32, 62, 63, 64, 65]","[53, 53, 88, 77, 84, 90, 58, 85, 76, 65]",0.1,0.16666666666666666,53,0.8898096084594727,"8. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. All types of hazardous wastes that are generated at a facility and are discarded from the site for disposal, and would be considered part of the environmental footprint of the site. Actual tons of all Production or routine wastes shipped as hazardous waste (excludes remediation and construction-related waste).
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction",53,0.8855792284011841,"5. Energy includes natural gas, other fuels and electricity. 6. Water data represents approximately 84% of operations square footage. 7. Solid waste numbers represent values determined from scale-weighed containers as well as calculated weights. Nonhazardous solid waste is sent to landfill for disposal. This measure applies to all waste
+
+streams where Boeing is responsible for waste disposal service as a normal part of daily operations (excludes remediation and construction-related waste).",88,0.8806729912757874,"contracts with vendors who provide waste-to-landfill, waste-to-energy, recycling and composting services. Vendors provide disposal data, and in the absence of weight-based data, Boeing calculates weight using a parametric approach. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. With profile waste designations determining the type of waste and Management codes determining the disposal method. Boeing does not screen suppliers using",77,0.8509305715560913,"data presented are snapshots taken in December of the year referenced. 4. Veteran data reflects the U.S. workforce only based on voluntary, confidential self-identification. A veteran is defined as a person who served in the active military, naval, or air service and who was discharged or released therefrom under conditions other than dishonorable. 5. All data on gender is collected globally. 6. Numbers for gender may not total 100% due to team members who identify as nonbinary or who choose not",84,0.8497107625007629,"204: Procurement Practices 204-1 Proportion of spending on local suppliers 89% of our suppliers are local to our significant locations of operations, and spend with these local suppliers comprised 81% of our supplier spend. Local suppliers are defined as domestic in relation to the location of operation; significant locations of operation are defined as major operational areas as determined by square footage. GRI 205: Anti-Corruption 205-2 Communication and training about anti-corruption",90,0.8495744466781616,"Disclosure Title Assessment of the health and safety impacts of product and service categories Incidents of noncompliance concerning the health and safety impacts of products and services Substantiated complaints concerning breaches of customer privacy and losses of customer data Sustainability Report Section(s) Global Aerospace Safety, Pages 28-30 Global Aerospace Safety, Pages 28-30 Enterprise Security and Data Privacy, Page 66 Additional Reference(s)/Link(s) Statistical Summary of Commercial",58,0.8446109890937805,"Boeing is making strides to protect the land, water and air in our communities by reducing waste from work sites and our supply chain. Waste streams are as complex as our facilities, which range from office space to part fabrication to assembly of aircraft and space vehicles. Solid waste includes material that has been discarded or abandoned or that is no longer useful or usable and has been designated for removal. Items that are reused or reclaimed are excluded from solid waste. Boeing has",85,0.8434233069419861,"Disclosure Disclosure Title Sustainability Report Section(s) Additional Reference(s)/Link(s) 302-3 Energy intensity Key ESG Data, Page 74 CDP Climate Report1 The energy intensity ratio includes total energy use divided by revenue. This figure represents purchased renewable energy and purchased nonrenewable energy, including: natural gas, electricity, No. 2 petroleum diesel, No. 5 petroleum oil, No. 6 residual fuel oil, motor gasoline, jet fuel, propane, aviation gasoline, liquefied petroleum",76,0.8427767753601074,"3. Total waste generated includes all recycled, reused and composted material. 4. Data represents number of federally reportable aggregate spills. 5. See Page 61 of this report for further details about this incident and penalty.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",65,0.8420441150665283,"2. Small business refers to a business that is independently owned and operated, is not dominant in the field of operations in which it is bidding and meets the North American Industry Classification System (NAICS) size standards and Code of Federal Regulations, Title 13, Part 121.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services"
+"306-3 Significant spills Total number and total volume of recorded significant spills; location, volume, material of each spill; impacts of significant spills.","[76, 61]","[76, 53, 82, 76, 87, 74, 58, 82, 88, 53]",0.2,0.5,76,0.831710696220398,"3. Total waste generated includes all recycled, reused and composted material. 4. Data represents number of federally reportable aggregate spills. 5. See Page 61 of this report for further details about this incident and penalty.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",53,0.8156036138534546,"8. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. All types of hazardous wastes that are generated at a facility and are discarded from the site for disposal, and would be considered part of the environmental footprint of the site. Actual tons of all Production or routine wastes shipped as hazardous waste (excludes remediation and construction-related waste).
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction",82,0.8141845464706421,"telephone/utility poles. Excess copper and chronic toxicity were not attributed to an identifiable source and were episodic in nature where laboratory error was suspected. Boeing paid $27,275 in fines regarding environmental noncompliance that occurred in the current reporting cycle; Boeing paid $3,000 in fines regarding environmental noncompliance that occurred in a previous reporting cycle. 2-28 Membership associations Select Memberships and Partnerships, Page 98 2022 Trade Association",76,0.8090385794639587,"recovery Total waste incinerated without energy recovery Total waste sent to landfill Total waste otherwise disposed Percentage of total waste recycled Total waste generated3 Waste — Spills Number of aggregate spills (all operations)4 Quantity spilled (all operations) Quantity of spilled material recovered (all operations) Waste — Penalties Incidents incurring a penalty over $10,000 (all operations)5 Total of penalties over $10,000 (all operations) Metric tons 15 — 13 880 2% 930 2,094 9,509 82%",87,0.7985388040542603,"C6.10 GHG Supplement 305-5 Reduction of GHG emissions Sustainability Goals, Page 12; Operational Targets Progress, Page 53 CDP Climate Report1 C4 GHG Supplement GRI 306 (2016): Effluents and Waste 306-3 Significant spills Key ESG Data, Page 76; Operations, Page 61 GRI 306: Waste 306-1 Waste generation and significant waste-related impacts Key ESG Data, Pages 75-76 Boeing generates nonhazardous solid waste through a number of activities: Manufacturing, production and design of products; Packaging",74,0.7920763492584229,"and purchased electricity associated with sites that represent the majority (70%) of Boeing operations. 5. GHG intensity includes Scope 1 and Scope 2 (market-based) GHG (CO2, CH4, N2O, HFCs, PFCs, SF6 and NF3). 6. Use of sold products emissions are based on estimated lifetime emissions of Boeing Commercial Airplanes and Boeing Defense Services product deliveries in 2022, including direct emissions from combustion of fuel (335M tonnes) and indirect emissions",58,0.7912178039550781,"• Hazardous Waste – 9% reduction compared to 2017. Hazardous waste was 1% higher than anticipated during the year. Benefits from implementing conservation initiatives were outweighed by key events across the enterprise, including a historical flood event in St. Louis, which caused an unplanned increase in hazardous waste disposal from a water treatment system.",82,0.788307785987854,"iron, manganese, dioxin (TCDD), and biochemical oxygen demand (BOD) at one or more outfalls. The penalty incurred was $22,000. The site experienced high-intensity rain events in the fourth quarter of 2021 that resulted in higher than normal rates of erosion from the site; the excess levels are believed to be attributable to natural sources — such as increased erosion of natural soils, decaying vegetation or waterfowl waste — and nonindustrial sources – such as road runoff and soils adjacent to",88,0.7855098247528076,"contracts with vendors who provide waste-to-landfill, waste-to-energy, recycling and composting services. Vendors provide disposal data, and in the absence of weight-based data, Boeing calculates weight using a parametric approach. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. With profile waste designations determining the type of waste and Management codes determining the disposal method. Boeing does not screen suppliers using",53,0.7833567261695862,"5. Energy includes natural gas, other fuels and electricity. 6. Water data represents approximately 84% of operations square footage. 7. Solid waste numbers represent values determined from scale-weighed containers as well as calculated weights. Nonhazardous solid waste is sent to landfill for disposal. This measure applies to all waste
+
+streams where Boeing is responsible for waste disposal service as a normal part of daily operations (excludes remediation and construction-related waste)."
+"306-1 Waste generation and significant waste-related impacts Describe inputs, activities, and outputs that lead or could lead to significant waste-related impacts. Report a process flow of inputs, activities, and outputs that lead or could lead to significant waste-related impacts. Include inputs, outputs, and activities leading to significant waste-related impacts; use a process flow to illustrate material movement.","[75, 76]","[93, 93, 58, 91, 90, 91, 93, 87, 20, 53]",0.0,0.0,93,0.851580798625946,"Disclosure TCFD Recommended Disclosure Sustainability Report Section(s) Describe the Board’s oversight of climate-related risks and opportunities Governance and Risk Management, Pages 13-14; Addressing Climate Change, Pages 54-55 Governance Describe management’s role in assessing and managing climate-related risks and opportunities Governance and Risk Management, Pages 13-14; Addressing Climate Change, Pages 54-55 Describe the climate-related risks and opportunities the organization has",93,0.8483092784881592,"Describe the organization’s processes for managing climate-related risks Governance and Risk Management, Pages 13-14 Describe how processes for identifying, assessing and managing climate- related risks are integrated into the organization’s overall risk management Governance and Risk Management, Pages 13-14 Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk-management process Metrics and Targets Disclose Scope 1,",58,0.847291886806488,"Boeing generates hazardous waste primarily from a variety of research, manufacturing and facilities maintenance processes. Hazardous waste may be recycled upstream or downstream, as on-site or off-site reclamation and avoided generation through processes that extend useful life of consumable chemicals to avoid hazardous waste. We look to reduce hazardous waste in upstream activities by preventing or reducing the amount of hazardous waste generated through extending system life through",91,0.8360785841941833,"RT-AE-150a.1 Key ESG Data, Pages 75-76 Number and aggregate quantity of reportable spills RT-AE-150a.2 Key ESG Data, Page 76 Quantity recovered from reportable spills RT-AE-150a.2 Key ESG Data, Page 76 Data Security Description of approach to identifying and addressing data security risks in company operations RT-AE-230a.2 We rely extensively on information technology systems and networks to operate our company and meet our business objectives. As cyber threats increase in volume and",90,0.8314008712768555,"Disclosure Title Assessment of the health and safety impacts of product and service categories Incidents of noncompliance concerning the health and safety impacts of products and services Substantiated complaints concerning breaches of customer privacy and losses of customer data Sustainability Report Section(s) Global Aerospace Safety, Pages 28-30 Global Aerospace Safety, Pages 28-30 Enterprise Security and Data Privacy, Page 66 Additional Reference(s)/Link(s) Statistical Summary of Commercial",91,0.8296834826469421,"data loss or the potentially serious reputational, operational or financial impacts that may result. A strong partnership exists between IT, Enterprise Security, Corporate Audit, and Legal to ensure identified issues are addressed in a timely manner and incidents are reported to the appropriate regulatory bodies as required. Description of approach to identifying and addressing data security risks in products RT-AE-230a.2",93,0.8285852670669556,"identified over the short, medium and long term Strategy Describe the impact of climate-related risks and opportunities on the organization’s businesses, strategy and financial planning Describe the potential impact of different scenarios, including a 2 degree Cel- sius scenario, on the organization’s businesses, strategy and financial planning Describe the organization’s process for identifying and assessing climate-related risks Governance and Risk Management, Pages 13-14 Risk Management",87,0.8260123133659363,"C6.10 GHG Supplement 305-5 Reduction of GHG emissions Sustainability Goals, Page 12; Operational Targets Progress, Page 53 CDP Climate Report1 C4 GHG Supplement GRI 306 (2016): Effluents and Waste 306-3 Significant spills Key ESG Data, Page 76; Operations, Page 61 GRI 306: Waste 306-1 Waste generation and significant waste-related impacts Key ESG Data, Pages 75-76 Boeing generates nonhazardous solid waste through a number of activities: Manufacturing, production and design of products; Packaging",20,0.8247905373573303,"Boeing’s Lifesaving Rules
+
+Safety is a core value at Boeing. Some operations performed at Boeing are recognized as High Hazard Processes due to their potential for a serious injury or fatality. Lifesaving Rules go beyond regulatory requirements and are intended to reduce or eliminate the risks created when around or performing these processes and prevent life-critical incidents by increasing accountability for following safety policies and procedures.
+
+Extn
+
+Cas
+
+Pedestrian/Vehicle",53,0.8236244320869446,"8. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. All types of hazardous wastes that are generated at a facility and are discarded from the site for disposal, and would be considered part of the environmental footprint of the site. Actual tons of all Production or routine wastes shipped as hazardous waste (excludes remediation and construction-related waste).
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction"
+"306-2 Management of significant waste-related impacts Actions taken to prevent waste generation and to manage significant impacts from waste generated; processes used to collect and monitor waste-related data. Include circularity measures, collaboration in the value chain, end-of-life interventions, and data collection processes.","[75, 76, 53]","[93, 91, 58, 85, 58, 93, 87, 81, 12, 85]",0.0,0.0,93,0.8779202103614807,"Describe the organization’s processes for managing climate-related risks Governance and Risk Management, Pages 13-14 Describe how processes for identifying, assessing and managing climate- related risks are integrated into the organization’s overall risk management Governance and Risk Management, Pages 13-14 Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk-management process Metrics and Targets Disclose Scope 1,",91,0.8740630149841309,"data loss or the potentially serious reputational, operational or financial impacts that may result. A strong partnership exists between IT, Enterprise Security, Corporate Audit, and Legal to ensure identified issues are addressed in a timely manner and incidents are reported to the appropriate regulatory bodies as required. Description of approach to identifying and addressing data security risks in products RT-AE-230a.2",58,0.8724163174629211,"Boeing generates hazardous waste primarily from a variety of research, manufacturing and facilities maintenance processes. Hazardous waste may be recycled upstream or downstream, as on-site or off-site reclamation and avoided generation through processes that extend useful life of consumable chemicals to avoid hazardous waste. We look to reduce hazardous waste in upstream activities by preventing or reducing the amount of hazardous waste generated through extending system life through",85,0.8705557584762573,"techniques endorsed by the U.S. EPA in this CBP program, which include: Meter/Measure/Manage; Optimize Cooling towers; Replace Restroom Fixtures; Eliminate Single Pass Cooling; Use Water-Smart Landscaping and Irrigation. Boeing regularly reviews industry best practices and utilizes ISO 14001 to target continuous improvement opportunities, enhance environmental performance, meet its compliance obligations and achieve its reduction goals. 303-2 Management of water-related impacts Sustainable",58,0.8688487410545349,"contaminant removal. Downstream, we look at hazardous waste generated from site operations. We implement several recycling and recovery activities to reduce the need for new chemicals.",93,0.8678407669067383,"identified over the short, medium and long term Strategy Describe the impact of climate-related risks and opportunities on the organization’s businesses, strategy and financial planning Describe the potential impact of different scenarios, including a 2 degree Cel- sius scenario, on the organization’s businesses, strategy and financial planning Describe the organization’s process for identifying and assessing climate-related risks Governance and Risk Management, Pages 13-14 Risk Management",87,0.8638772964477539,"C6.10 GHG Supplement 305-5 Reduction of GHG emissions Sustainability Goals, Page 12; Operational Targets Progress, Page 53 CDP Climate Report1 C4 GHG Supplement GRI 306 (2016): Effluents and Waste 306-3 Significant spills Key ESG Data, Page 76; Operations, Page 61 GRI 306: Waste 306-1 Waste generation and significant waste-related impacts Key ESG Data, Pages 75-76 Boeing generates nonhazardous solid waste through a number of activities: Manufacturing, production and design of products; Packaging",81,0.8628713488578796,"described in the Governance and Risk Management section. While the Precautionary Principle is not specifically applied as part of our ERM, we do consider environmental protection as a fundamental part of our approach to business. For example, the Due Diligence program conducts reviews designed to reduce risks and to facilitate efficient environment, health and safety integration of acquired properties and business operations. Environmental considerations are also included in our life cycle",12,0.8621733784675598,verified offsets for the remaining GHG. • Achieve 100% renewable electricity. • Achieved 35% renewable electricity in 2022 by purchasing renewable electricity and renewable energy credits. Partner with supply chain for responsible business practices • Work with our suppliers to increase GHG reporting and proactively address risks driven by climate change-driven risks. • Implemented supplier code of conduct aligned to ESG elements including climate change and environment priorities. • Launched,85,0.8609457015991211,"shop floor to our C-suite. Conservation Best Practices are low-cost, proven initiatives that reduce resource use by Boeing operations. In 2022, Boeing focused water reduction efforts on improving process efficiencies across the company. We utilize monthly metrics to identify irregularities that may indicate an impact on water consumption that requires action, as well as the Conservation Best Practice (CBP) program to minimize on-site water use. Boeing utilizes many of the water management"
+"306-3 Waste generated Total weight of waste generated in metric tons, and a breakdown of this total by composition of the waste. Exclude effluent unless required by legislation; use 1000 kilograms as the measure for a metric ton.","[75, 76]","[53, 53, 88, 76, 53, 54, 74, 76, 75, 59]",0.3,1.0,53,0.8679248094558716,"8. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. All types of hazardous wastes that are generated at a facility and are discarded from the site for disposal, and would be considered part of the environmental footprint of the site. Actual tons of all Production or routine wastes shipped as hazardous waste (excludes remediation and construction-related waste).
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction",53,0.8552632331848145,"5. Energy includes natural gas, other fuels and electricity. 6. Water data represents approximately 84% of operations square footage. 7. Solid waste numbers represent values determined from scale-weighed containers as well as calculated weights. Nonhazardous solid waste is sent to landfill for disposal. This measure applies to all waste
+
+streams where Boeing is responsible for waste disposal service as a normal part of daily operations (excludes remediation and construction-related waste).",88,0.8477199673652649,"contracts with vendors who provide waste-to-landfill, waste-to-energy, recycling and composting services. Vendors provide disposal data, and in the absence of weight-based data, Boeing calculates weight using a parametric approach. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. With profile waste designations determining the type of waste and Management codes determining the disposal method. Boeing does not screen suppliers using",76,0.8339405655860901,"recovery Total waste incinerated without energy recovery Total waste sent to landfill Total waste otherwise disposed Percentage of total waste recycled Total waste generated3 Waste — Spills Number of aggregate spills (all operations)4 Quantity spilled (all operations) Quantity of spilled material recovered (all operations) Waste — Penalties Incidents incurring a penalty over $10,000 (all operations)5 Total of penalties over $10,000 (all operations) Metric tons 15 — 13 880 2% 930 2,094 9,509 82%",53,0.816708505153656,"2025.  • Over 90% diversion from landfill or incineration. • Zero solid waste to landfill certification where    applicable at major sites.  Hazardous   Waste8  Reduce   hazardous   waste by 5%  9% Reduction Projects to reduce unused and expired materials,   and partnerships to reduce waste generation.  • 5% hazardous waste reduction from 2025. ",54,0.8146564364433289,"Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year. However, the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated",74,0.8130629062652588,"and purchased electricity associated with sites that represent the majority (70%) of Boeing operations. 5. GHG intensity includes Scope 1 and Scope 2 (market-based) GHG (CO2, CH4, N2O, HFCs, PFCs, SF6 and NF3). 6. Use of sold products emissions are based on estimated lifetime emissions of Boeing Commercial Airplanes and Boeing Defense Services product deliveries in 2022, including direct emissions from combustion of fuel (335M tonnes) and indirect emissions",76,0.8116278648376465,"3. Total waste generated includes all recycled, reused and composted material. 4. Data represents number of federally reportable aggregate spills. 5. See Page 61 of this report for further details about this incident and penalty.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",75,0.8114303350448608,Boeing does not use seawater. 1. Water data represents approximately 84% of operations by square footage. 2. Water-stressed areas are those with high or extremely high water stress in the World Resources Institute Aqueduct Model. 3. Two locations have on-site water sources — Palmdale (well) and Portland (reclamation).,59,0.8058562874794006,"most consumption measurement is from water system revenue-grade meters. Water used within our facilities is discharged to public sanitary sewer systems. In some cases, Boeing pre-treats wastewater before discharging it to public sanitary sewer systems, in compliance with regulatory requirements. Boeing does not set voluntary effluent discharge standards beyond those set by regulation."
+"306-4 Waste diverted from disposal Total weight of waste diverted from disposal in metric tons, and a breakdown of this total by composition of the waste. Report the total weight of waste prevented, and the baseline and methodology for this calculation. Describe the type of waste, waste streams, and materials present in the waste.","[75, 76]","[53, 53, 88, 76, 76, 53, 87, 75, 54, 75]",0.4,1.0,53,0.8878021240234375,"8. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. All types of hazardous wastes that are generated at a facility and are discarded from the site for disposal, and would be considered part of the environmental footprint of the site. Actual tons of all Production or routine wastes shipped as hazardous waste (excludes remediation and construction-related waste).
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction",53,0.8741660714149475,"5. Energy includes natural gas, other fuels and electricity. 6. Water data represents approximately 84% of operations square footage. 7. Solid waste numbers represent values determined from scale-weighed containers as well as calculated weights. Nonhazardous solid waste is sent to landfill for disposal. This measure applies to all waste
+
+streams where Boeing is responsible for waste disposal service as a normal part of daily operations (excludes remediation and construction-related waste).",88,0.870524525642395,"contracts with vendors who provide waste-to-landfill, waste-to-energy, recycling and composting services. Vendors provide disposal data, and in the absence of weight-based data, Boeing calculates weight using a parametric approach. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. With profile waste designations determining the type of waste and Management codes determining the disposal method. Boeing does not screen suppliers using",76,0.8485135436058044,"3. Total waste generated includes all recycled, reused and composted material. 4. Data represents number of federally reportable aggregate spills. 5. See Page 61 of this report for further details about this incident and penalty.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",76,0.8421996235847473,"recovery Total waste incinerated without energy recovery Total waste sent to landfill Total waste otherwise disposed Percentage of total waste recycled Total waste generated3 Waste — Spills Number of aggregate spills (all operations)4 Quantity spilled (all operations) Quantity of spilled material recovered (all operations) Waste — Penalties Incidents incurring a penalty over $10,000 (all operations)5 Total of penalties over $10,000 (all operations) Metric tons 15 — 13 880 2% 930 2,094 9,509 82%",53,0.8368115425109863,"2025.  • Over 90% diversion from landfill or incineration. • Zero solid waste to landfill certification where    applicable at major sites.  Hazardous   Waste8  Reduce   hazardous   waste by 5%  9% Reduction Projects to reduce unused and expired materials,   and partnerships to reduce waste generation.  • 5% hazardous waste reduction from 2025. ",87,0.8256438374519348,"C6.10 GHG Supplement 305-5 Reduction of GHG emissions Sustainability Goals, Page 12; Operational Targets Progress, Page 53 CDP Climate Report1 C4 GHG Supplement GRI 306 (2016): Effluents and Waste 306-3 Significant spills Key ESG Data, Page 76; Operations, Page 61 GRI 306: Waste 306-1 Waste generation and significant waste-related impacts Key ESG Data, Pages 75-76 Boeing generates nonhazardous solid waste through a number of activities: Manufacturing, production and design of products; Packaging",75,0.8237518668174744,"hazardous manifest or equivalent government shipping documents, with profile waste designations determining the type of waste and Management codes determining the disposal method.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",54,0.8215783834457397,"Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year. However, the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated",75,0.8179004788398743,Boeing does not use seawater. 1. Water data represents approximately 84% of operations by square footage. 2. Water-stressed areas are those with high or extremely high water stress in the World Resources Institute Aqueduct Model. 3. Two locations have on-site water sources — Palmdale (well) and Portland (reclamation).
+"306-5 Waste directed to disposal Total weight of waste directed to disposal in metric tons, and a breakdown of this total by composition of the waste. Specify types of disposal operations; describe onsite and offsite disposal operations.","[75, 76]","[53, 88, 53, 76, 53, 75, 76, 74, 75, 87]",0.4,1.0,53,0.8905702829360962,"5. Energy includes natural gas, other fuels and electricity. 6. Water data represents approximately 84% of operations square footage. 7. Solid waste numbers represent values determined from scale-weighed containers as well as calculated weights. Nonhazardous solid waste is sent to landfill for disposal. This measure applies to all waste
+
+streams where Boeing is responsible for waste disposal service as a normal part of daily operations (excludes remediation and construction-related waste).",88,0.886180579662323,"contracts with vendors who provide waste-to-landfill, waste-to-energy, recycling and composting services. Vendors provide disposal data, and in the absence of weight-based data, Boeing calculates weight using a parametric approach. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. With profile waste designations determining the type of waste and Management codes determining the disposal method. Boeing does not screen suppliers using",53,0.8854163885116577,"8. Hazardous waste is determined from U.S. EPA hazardous manifest or equivalent government shipping documents. All types of hazardous wastes that are generated at a facility and are discarded from the site for disposal, and would be considered part of the environmental footprint of the site. Actual tons of all Production or routine wastes shipped as hazardous waste (excludes remediation and construction-related waste).
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction",76,0.8495706915855408,"recovery Total waste incinerated without energy recovery Total waste sent to landfill Total waste otherwise disposed Percentage of total waste recycled Total waste generated3 Waste — Spills Number of aggregate spills (all operations)4 Quantity spilled (all operations) Quantity of spilled material recovered (all operations) Waste — Penalties Incidents incurring a penalty over $10,000 (all operations)5 Total of penalties over $10,000 (all operations) Metric tons 15 — 13 880 2% 930 2,094 9,509 82%",53,0.8382022380828857,"2025.  • Over 90% diversion from landfill or incineration. • Zero solid waste to landfill certification where    applicable at major sites.  Hazardous   Waste8  Reduce   hazardous   waste by 5%  9% Reduction Projects to reduce unused and expired materials,   and partnerships to reduce waste generation.  • 5% hazardous waste reduction from 2025. ",75,0.8327385783195496,"hazardous manifest or equivalent government shipping documents, with profile waste designations determining the type of waste and Management codes determining the disposal method.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",76,0.8289424180984497,"3. Total waste generated includes all recycled, reused and composted material. 4. Data represents number of federally reportable aggregate spills. 5. See Page 61 of this report for further details about this incident and penalty.
+
+2023 Boeing Sustainability Report
+
+Contents
+
+Introduction
+
+Approach & Governance
+
+People
+
+Products & Services
+
+Operations
+
+Communities
+
+Reporting
+
+Key ESG Data
+
+GRI Index
+
+SASB Index",74,0.826723575592041,"and purchased electricity associated with sites that represent the majority (70%) of Boeing operations. 5. GHG intensity includes Scope 1 and Scope 2 (market-based) GHG (CO2, CH4, N2O, HFCs, PFCs, SF6 and NF3). 6. Use of sold products emissions are based on estimated lifetime emissions of Boeing Commercial Airplanes and Boeing Defense Services product deliveries in 2022, including direct emissions from combustion of fuel (335M tonnes) and indirect emissions",75,0.8262514472007751,Boeing does not use seawater. 1. Water data represents approximately 84% of operations by square footage. 2. Water-stressed areas are those with high or extremely high water stress in the World Resources Institute Aqueduct Model. 3. Two locations have on-site water sources — Palmdale (well) and Portland (reclamation).,87,0.8229995965957642,"C6.10 GHG Supplement 305-5 Reduction of GHG emissions Sustainability Goals, Page 12; Operational Targets Progress, Page 53 CDP Climate Report1 C4 GHG Supplement GRI 306 (2016): Effluents and Waste 306-3 Significant spills Key ESG Data, Page 76; Operations, Page 61 GRI 306: Waste 306-1 Waste generation and significant waste-related impacts Key ESG Data, Pages 75-76 Boeing generates nonhazardous solid waste through a number of activities: Manufacturing, production and design of products; Packaging"

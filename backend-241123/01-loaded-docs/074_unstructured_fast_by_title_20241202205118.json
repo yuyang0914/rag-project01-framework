@@ -1,0 +1,173 @@
+{
+  "filename": "074.pdf",
+  "total_chunks": 8,
+  "total_pages": 1,
+  "loading_method": "unstructured",
+  "loading_strategy": "fast",
+  "chunking_strategy": "by_title",
+  "chunking_method": "loaded",
+  "timestamp": "2024-12-02T20:51:18.744208",
+  "chunks": [
+    {
+      "content": "2023 Boeing Sustainability Report\n\nContents\n\nIntroduction\n\nApproach & Governance\n\nPeople\n\nProducts & Services\n\nOperations\n\nCommunities\n\nReporting\n\nKey ESG Data\n\nGRI Index\n\nSASB Index\n\nTCFD Index\n\nU.N. Sustainable Development Goals\n\nAwards and Recognition\n\nSelect Memberships and Partnerships\n\nForward-Looking Statements\n\n74\n\nKey ESG Data\n\nEnvironmental Data\n\n2022\n\n2021\n\n2020\n\nEnergy1\n\nMegawatt hours\n\nTerajoules\n\nMegawatt hours\n\nTerajoules\n\nMegawatt hours\n\nTerajoules",
+      "metadata": {
+        "chunk_id": 1,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 57,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.Title object at 0x7f53c3e01150>, <unstructured.documents.elements.Title object at 0x7f53c40969e0>, <unstructured.documents.elements.Title object at 0x7f53c4096b30>, <unstructured.documents.elements.Title object at 0x7f53c4096b60>, <unstructured.documents.elements.Title object at 0x7f53c4096da0>, <unstructured.documents.elements.Title object at 0x7f53c4096e00>, <unstructured.documents.elements.Title object at 0x7f53c4096f50>, <unstructured.documents.elements.Title object at 0x7f53c4097040>, <unstructured.documents.elements.Title object at 0x7f53c4097130>, <unstructured.documents.elements.Title object at 0x7f53c4097220>, <unstructured.documents.elements.Title object at 0x7f53c4097310>, <unstructured.documents.elements.Title object at 0x7f53c4097400>, <unstructured.documents.elements.Title object at 0x7f53c40974f0>, <unstructured.documents.elements.Title object at 0x7f53c40976a0>, <unstructured.documents.elements.Title object at 0x7f53c4097760>, <unstructured.documents.elements.Title object at 0x7f53c4097820>, <unstructured.documents.elements.Title object at 0x7f53c4097850>, <unstructured.documents.elements.Footer object at 0x7f53c4097970>, <unstructured.documents.elements.Title object at 0x7f53c4097550>, <unstructured.documents.elements.Title object at 0x7f53c4097be0>, <unstructured.documents.elements.Text object at 0x7f53c1ff0a30>, <unstructured.documents.elements.Text object at 0x7f53c1ff08e0>, <unstructured.documents.elements.Text object at 0x7f53c1ff0af0>, <unstructured.documents.elements.Title object at 0x7f53c4097cd0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0cd0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0e80>, <unstructured.documents.elements.Title object at 0x7f53c1ff0ee0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0eb0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0fa0>, <unstructured.documents.elements.Title object at 0x7f53c1ff1090>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "97f81197d93c7b429b1ef773967c69e2",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "Natural gas\n\n1,928,000\n\n6,941\n\n1,712,000\n\n6,163\n\n1,686,000\n\n6,070\n\nJet kerosene\n\n861,000\n\n3,100\n\n804,000\n\n2,894\n\n544,000\n\n1,958\n\nFuel oil #2\n\n127,000\n\n457\n\n153,000\n\n551\n\n149,000\n\n536\n\nMotor gasoline\n\n24,000\n\n86\n\n21,000\n\n76\n\n21,000\n\n76\n\nPropane\n\n11,000\n\n40\n\n10,000\n\n36\n\n12,000\n\n43\n\nLiquefied petroleum gas\n\n2,000\n\n7\n\n1,000\n\n4\n\n–\n\n–\n\nTotal nonrenewable fuels\n\n2,953,000\n\n10,631\n\n2,701,000\n\n9,724\n\n2,412,000\n\n8,683\n\nSustainable aviation fuel\n\n9,000\n\n32\n\n4,000\n\n14\n\n2,000\n\n7",
+      "metadata": {
+        "chunk_id": 2,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 67,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.Title object at 0x7f53c4097d00>, <unstructured.documents.elements.Text object at 0x7f53c1ff1270>, <unstructured.documents.elements.Text object at 0x7f53c1ff16f0>, <unstructured.documents.elements.Text object at 0x7f53c1ff1db0>, <unstructured.documents.elements.Text object at 0x7f53c1ff35e0>, <unstructured.documents.elements.Text object at 0x7f53c200c250>, <unstructured.documents.elements.Text object at 0x7f53c200c7f0>, <unstructured.documents.elements.Title object at 0x7f53c4097f10>, <unstructured.documents.elements.Text object at 0x7f53c1ff1240>, <unstructured.documents.elements.Text object at 0x7f53c1ff17e0>, <unstructured.documents.elements.Text object at 0x7f53c1ff1d80>, <unstructured.documents.elements.Text object at 0x7f53c1ff36d0>, <unstructured.documents.elements.Text object at 0x7f53c200c340>, <unstructured.documents.elements.Text object at 0x7f53c200c8e0>, <unstructured.documents.elements.Title object at 0x7f53c4097fd0>, <unstructured.documents.elements.Text object at 0x7f53c1ff1330>, <unstructured.documents.elements.Text object at 0x7f53c1ff1a20>, <unstructured.documents.elements.Text object at 0x7f53c1ff1e70>, <unstructured.documents.elements.Text object at 0x7f53c1ff3910>, <unstructured.documents.elements.Text object at 0x7f53c200c430>, <unstructured.documents.elements.Text object at 0x7f53c200cb20>, <unstructured.documents.elements.Title object at 0x7f53c4097e50>, <unstructured.documents.elements.Text object at 0x7f53c1ff1420>, <unstructured.documents.elements.Text object at 0x7f53c1ff18d0>, <unstructured.documents.elements.Text object at 0x7f53c1ff1f60>, <unstructured.documents.elements.Text object at 0x7f53c1ff37c0>, <unstructured.documents.elements.Text object at 0x7f53c200c670>, <unstructured.documents.elements.Text object at 0x7f53c200c9d0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0250>, <unstructured.documents.elements.Text object at 0x7f53c1ff1510>, <unstructured.documents.elements.Text object at 0x7f53c1ff1ae0>, <unstructured.documents.elements.Text object at 0x7f53c1ff2050>, <unstructured.documents.elements.Text object at 0x7f53c1ff39d0>, <unstructured.documents.elements.Text object at 0x7f53c200c730>, <unstructured.documents.elements.Text object at 0x7f53c200cbe0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0280>, <unstructured.documents.elements.Text object at 0x7f53c1ff1600>, <unstructured.documents.elements.Text object at 0x7f53c1ff1bd0>, <unstructured.documents.elements.Text object at 0x7f53c1ff2140>, <unstructured.documents.elements.Text object at 0x7f53c1ff3ac0>, <unstructured.documents.elements.Text object at 0x7f53c200c700>, <unstructured.documents.elements.Text object at 0x7f53c200ccd0>, <unstructured.documents.elements.Title object at 0x7f53c1ff0040>, <unstructured.documents.elements.Text object at 0x7f53c1ff2230>, <unstructured.documents.elements.Text object at 0x7f53c1ff2320>, <unstructured.documents.elements.Text object at 0x7f53c1ff2410>, <unstructured.documents.elements.Text object at 0x7f53c1ff3ca0>, <unstructured.documents.elements.Text object at 0x7f53c200ceb0>, <unstructured.documents.elements.Text object at 0x7f53c200ce80>, <unstructured.documents.elements.Title object at 0x7f53c1ff0340>, <unstructured.documents.elements.Text object at 0x7f53c1ff2500>, <unstructured.documents.elements.Text object at 0x7f53c1ff2bf0>, <unstructured.documents.elements.Text object at 0x7f53c1ff3040>, <unstructured.documents.elements.Text object at 0x7f53c1ff3dc0>, <unstructured.documents.elements.Text object at 0x7f53c200d0c0>, <unstructured.documents.elements.Text object at 0x7f53c200d660>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "64dee592db773575e040ba7d5b207156",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "Total renewable fuels\n\n9,000\n\n32\n\n4,000\n\n14\n\n2,000\n\n7\n\nPurchased nonrenewable electricity\n\n1,350,000\n\n4,860\n\n1,482,000\n\n5,335\n\n1,686,000\n\n6,070\n\nPurchased renewable electricity2\n\n720,000\n\n2,592\n\n574,000\n\n2,066\n\n392,000\n\n1,411\n\nTotal purchased electricity\n\n2,070,000\n\n7,452\n\n2,056,000\n\n7,402\n\n2,078,000\n\n7,481",
+      "metadata": {
+        "chunk_id": 3,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 36,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.Title object at 0x7f53c1ff0430>, <unstructured.documents.elements.Text object at 0x7f53c1ff2740>, <unstructured.documents.elements.Text object at 0x7f53c1ff2aa0>, <unstructured.documents.elements.Text object at 0x7f53c1ff3280>, <unstructured.documents.elements.Text object at 0x7f53c1ff3c70>, <unstructured.documents.elements.Text object at 0x7f53c200cf70>, <unstructured.documents.elements.Text object at 0x7f53c200d510>, <unstructured.documents.elements.NarrativeText object at 0x7f53c1ff0520>, <unstructured.documents.elements.Text object at 0x7f53c1ff2800>, <unstructured.documents.elements.Text object at 0x7f53c1ff2da0>, <unstructured.documents.elements.Text object at 0x7f53c1ff3340>, <unstructured.documents.elements.Text object at 0x7f53c1ff3e80>, <unstructured.documents.elements.Text object at 0x7f53c200d180>, <unstructured.documents.elements.Text object at 0x7f53c200d720>, <unstructured.documents.elements.NarrativeText object at 0x7f53c1ff0610>, <unstructured.documents.elements.Text object at 0x7f53c1ff27d0>, <unstructured.documents.elements.Text object at 0x7f53c1ff2d70>, <unstructured.documents.elements.Text object at 0x7f53c1ff3310>, <unstructured.documents.elements.Text object at 0x7f53c1ff3f70>, <unstructured.documents.elements.Text object at 0x7f53c200d360>, <unstructured.documents.elements.Text object at 0x7f53c200d900>, <unstructured.documents.elements.NarrativeText object at 0x7f53c1ff0700>, <unstructured.documents.elements.Text object at 0x7f53c1ff28c0>, <unstructured.documents.elements.Text object at 0x7f53c1ff2e60>, <unstructured.documents.elements.Text object at 0x7f53c1ff3400>, <unstructured.documents.elements.Text object at 0x7f53c200c0d0>, <unstructured.documents.elements.Text object at 0x7f53c200d330>, <unstructured.documents.elements.Text object at 0x7f53c200d8d0>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "550324aa6c339669587fcad249c391a4",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "Total energy use\n\n5,033,000\n\n18,119\n\n4,761,000\n\n17,410\n\n4,492,000\n\n16,171\n\n1. Data represents 100% of the company. 2. Renewable electricity data excludes any renewable energy that is part of the grid by default, in alignment with SASB and other frameworks. Notably, Boeing operates in a number of grids that rely significantly on renewable sources. • Boeing did not sell any electricity, heating or cooling energy.\n\nEmissions1\n\nTons CO2e\n\nMetric tons CO2e\n\nTons CO2e\n\nMetric tons CO2e\n\nTons CO2e",
+      "metadata": {
+        "chunk_id": 4,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 77,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.Title object at 0x7f53c1ff07f0>, <unstructured.documents.elements.Text object at 0x7f53c1ff29b0>, <unstructured.documents.elements.Text object at 0x7f53c1ff2f50>, <unstructured.documents.elements.Text object at 0x7f53c1ff34f0>, <unstructured.documents.elements.Text object at 0x7f53c200c1c0>, <unstructured.documents.elements.Text object at 0x7f53c200d420>, <unstructured.documents.elements.Text object at 0x7f53c200d9c0>, <unstructured.documents.elements.ListItem object at 0x7f53c200dc00>, <unstructured.documents.elements.Title object at 0x7f53c200dd80>, <unstructured.documents.elements.Title object at 0x7f53c200e260>, <unstructured.documents.elements.Title object at 0x7f53c200e290>, <unstructured.documents.elements.Title object at 0x7f53c200e3b0>, <unstructured.documents.elements.Title object at 0x7f53c200e0b0>, <unstructured.documents.elements.Title object at 0x7f53c200e470>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "2e5588bba6621fa94cf434bf5e5d7fa7",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "Metric tons CO2e\n\nScope 1 GHG2,3\n\n708,000\n\n642,000\n\n675,000\n\n612,000\n\n611,000\n\n554,000\n\nScope 2 GHG — location-based2,3\n\n859,000\n\n779,000\n\n830,000\n\n753,000\n\n840,000\n\n762,000\n\nScope 2 GHG — market-based2,3\n\n442,000\n\n401,000\n\n493,000\n\n447,000\n\n580,000\n\n526,000\n\nScope 3 GHG — business travel\n\n205,000\n\n186,000\n\n97,000\n\n88,000\n\n101,000\n\n92,000\n\nScope 3 GHG — use of sold products (Commercial Airplanes)3,6\n\n400,000,000\n\n363,000,000\n\n306,000,000\n\n278,000,000\n\n246,000,000\n\n223,000,000",
+      "metadata": {
+        "chunk_id": 5,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 62,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.Title object at 0x7f53c200e560>, <unstructured.documents.elements.Title object at 0x7f53c200ddb0>, <unstructured.documents.elements.Text object at 0x7f53c200e740>, <unstructured.documents.elements.Text object at 0x7f53c200e9e0>, <unstructured.documents.elements.Text object at 0x7f53c200eda0>, <unstructured.documents.elements.Text object at 0x7f53c200f160>, <unstructured.documents.elements.Text object at 0x7f53c200f520>, <unstructured.documents.elements.Text object at 0x7f53c200f8e0>, <unstructured.documents.elements.Title object at 0x7f53c200dcc0>, <unstructured.documents.elements.Text object at 0x7f53c200e710>, <unstructured.documents.elements.Text object at 0x7f53c200ead0>, <unstructured.documents.elements.Text object at 0x7f53c200ee90>, <unstructured.documents.elements.Text object at 0x7f53c200f250>, <unstructured.documents.elements.Text object at 0x7f53c200f610>, <unstructured.documents.elements.Text object at 0x7f53c200f9d0>, <unstructured.documents.elements.Title object at 0x7f53c200de70>, <unstructured.documents.elements.Text object at 0x7f53c200e800>, <unstructured.documents.elements.Text object at 0x7f53c200ebc0>, <unstructured.documents.elements.Text object at 0x7f53c200ef80>, <unstructured.documents.elements.Text object at 0x7f53c200f340>, <unstructured.documents.elements.Text object at 0x7f53c200f700>, <unstructured.documents.elements.Text object at 0x7f53c200fac0>, <unstructured.documents.elements.Title object at 0x7f53c200e140>, <unstructured.documents.elements.Text object at 0x7f53c200e8f0>, <unstructured.documents.elements.Text object at 0x7f53c200ecb0>, <unstructured.documents.elements.Text object at 0x7f53c200f070>, <unstructured.documents.elements.Text object at 0x7f53c200f430>, <unstructured.documents.elements.Text object at 0x7f53c200f7f0>, <unstructured.documents.elements.Text object at 0x7f53c200fbb0>, <unstructured.documents.elements.NarrativeText object at 0x7f53c200fe80>, <unstructured.documents.elements.Text object at 0x7f53c200fe50>, <unstructured.documents.elements.Text object at 0x7f53c200ffd0>, <unstructured.documents.elements.Text object at 0x7f53c200fca0>, <unstructured.documents.elements.Text object at 0x7f53c2028100>, <unstructured.documents.elements.Text object at 0x7f53c20281f0>, <unstructured.documents.elements.Text object at 0x7f53c2028280>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "94ab7a81d44d6f21ae19aa64b8ba7316",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "Scope 3 GHG — use of sold products (Defense, Space & Security)3,6\n\n24,000,000\n\n22,000,000\n\n24,000,000\n\n22,000,000\n\n22,000,000\n\n20,000,000\n\nTotal calculated GHG excluding sold products\n\n1,355,000\n\n1,229,000\n\n1,264,000\n\n1,147,000\n\n1,292,000\n\n1,172,000\n\nCore metrics sites GHG — location-based4\n\n724,000\n\n657,000\n\n702,000\n\n637,000\n\n713,000\n\n647,000\n\nCore metrics sites GHG — market-based4\n\n323,000\n\n293,000\n\n376,000\n\n341,000\n\n452,000\n\n410,000\n\nGHG Intensity5\n\n$0.00002\n\n$0.00002\n\n$0.00002",
+      "metadata": {
+        "chunk_id": 6,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 59,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.Title object at 0x7f53c2028370>, <unstructured.documents.elements.Text object at 0x7f53c2028460>, <unstructured.documents.elements.Text object at 0x7f53c2028c70>, <unstructured.documents.elements.Text object at 0x7f53c2029180>, <unstructured.documents.elements.Text object at 0x7f53c2029540>, <unstructured.documents.elements.Text object at 0x7f53c2029900>, <unstructured.documents.elements.Text object at 0x7f53c2029b70>, <unstructured.documents.elements.NarrativeText object at 0x7f53c2028550>, <unstructured.documents.elements.Text object at 0x7f53c2028ac0>, <unstructured.documents.elements.Text object at 0x7f53c2028d60>, <unstructured.documents.elements.Text object at 0x7f53c2029240>, <unstructured.documents.elements.Text object at 0x7f53c2029600>, <unstructured.documents.elements.Text object at 0x7f53c20299c0>, <unstructured.documents.elements.Text object at 0x7f53c2029c60>, <unstructured.documents.elements.NarrativeText object at 0x7f53c2028850>, <unstructured.documents.elements.Text object at 0x7f53c2028880>, <unstructured.documents.elements.Text object at 0x7f53c2028e50>, <unstructured.documents.elements.Text object at 0x7f53c2029210>, <unstructured.documents.elements.Text object at 0x7f53c20295d0>, <unstructured.documents.elements.Text object at 0x7f53c2029990>, <unstructured.documents.elements.Text object at 0x7f53c2029d50>, <unstructured.documents.elements.NarrativeText object at 0x7f53c2028970>, <unstructured.documents.elements.Text object at 0x7f53c2028b80>, <unstructured.documents.elements.Text object at 0x7f53c2028f40>, <unstructured.documents.elements.Text object at 0x7f53c2029300>, <unstructured.documents.elements.Text object at 0x7f53c20296c0>, <unstructured.documents.elements.Text object at 0x7f53c2029a80>, <unstructured.documents.elements.Text object at 0x7f53c2029e40>, <unstructured.documents.elements.Title object at 0x7f53c2028a90>, <unstructured.documents.elements.Text object at 0x7f53c2029f30>, <unstructured.documents.elements.Text object at 0x7f53c202a170>, <unstructured.documents.elements.Text object at 0x7f53c202a020>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "a999d38a168945586723e956278fe55e",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "1. Emissions (Enterprise Scope 1, Scope 2, and Scope 3 Categories 6 and 11) data is verified by an accredited independent third party to the level of limited assurance, see assurance statements. 2. Scope 1 and Scope 2 data represents 100% of the company. 3. For Scopes 1, 2 and 3, we calculate emissions from CO2, CH4, N2O, HFCs, PFCs, SF6 and NF3 for this data set. 4. Core metrics sites data represents emissions of CO2, CH4 and N2O where we track a subset of emissions from natural gas combustion",
+      "metadata": {
+        "chunk_id": 7,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 90,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.ListItem object at 0x7f53c202a4d0>]",
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "897a58988d2fbfa413f54903312713cc",
+        "category": "CompositeElement"
+      }
+    },
+    {
+      "content": "and purchased electricity associated with sites that represent the majority (70%) of Boeing operations. 5. GHG intensity includes Scope 1 and Scope 2 (market-based) GHG (CO2, CH4, N2O, HFCs, PFCs, SF6 and NF3). 6. Use of sold products emissions are based on estimated lifetime emissions of Boeing Commercial Airplanes and Boeing Defense Services product deliveries in 2022, including direct emissions from combustion of fuel (335M tonnes) and indirect emissions from production of fuel (50M tonnes).",
+      "metadata": {
+        "chunk_id": 8,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 75,
+        "file_directory": "temp",
+        "filename": "074.pdf",
+        "languages": [
+          "eng"
+        ],
+        "last_modified": "2024-12-02T20:51:18",
+        "orig_elements": "[<unstructured.documents.elements.ListItem object at 0x7f53c202a4d0>]",
+        "is_continuation": true,
+        "filetype": "application/pdf",
+        "element_type": "CompositeElement",
+        "id": "9ccb3a46e36a3e7bcac9e81a373ef221",
+        "category": "CompositeElement"
+      }
+    }
+  ]
+}
