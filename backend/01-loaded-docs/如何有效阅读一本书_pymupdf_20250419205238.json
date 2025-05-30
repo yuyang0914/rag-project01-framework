@@ -1,0 +1,237 @@
+{
+  "filename": "如何有效阅读一本书.pdf",
+  "total_chunks": 25,
+  "total_pages": 254,
+  "loading_method": "pymupdf",
+  "loading_strategy": null,
+  "chunking_strategy": null,
+  "chunking_method": "loaded",
+  "timestamp": "2025-04-19T20:52:38.116546",
+  "chunks": [
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 1,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 2,
+        "page_number": 4,
+        "page_range": "4",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 3,
+        "page_number": 8,
+        "page_range": "8",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 4,
+        "page_number": 12,
+        "page_range": "12",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 5,
+        "page_number": 15,
+        "page_range": "15",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 6,
+        "page_number": 18,
+        "page_range": "18",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 7,
+        "page_number": 21,
+        "page_range": "21",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 8,
+        "page_number": 27,
+        "page_range": "27",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 9,
+        "page_number": 33,
+        "page_range": "33",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 10,
+        "page_number": 42,
+        "page_range": "42",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 11,
+        "page_number": 52,
+        "page_range": "52",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 12,
+        "page_number": 62,
+        "page_range": "62",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 13,
+        "page_number": 70,
+        "page_range": "70",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 14,
+        "page_number": 84,
+        "page_range": "84",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 15,
+        "page_number": 96,
+        "page_range": "96",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 16,
+        "page_number": 115,
+        "page_range": "115",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 17,
+        "page_number": 135,
+        "page_range": "135",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 18,
+        "page_number": 157,
+        "page_range": "157",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 19,
+        "page_number": 183,
+        "page_range": "183",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 20,
+        "page_number": 211,
+        "page_range": "211",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 21,
+        "page_number": 218,
+        "page_range": "218",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 22,
+        "page_number": 227,
+        "page_range": "227",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 23,
+        "page_number": 237,
+        "page_range": "237",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 24,
+        "page_number": 251,
+        "page_range": "251",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "免费分享微信shufoufou\n更多书籍首发朋友圈",
+      "metadata": {
+        "chunk_id": 25,
+        "page_number": 254,
+        "page_range": "254",
+        "word_count": 2
+      }
+    }
+  ]
+}
