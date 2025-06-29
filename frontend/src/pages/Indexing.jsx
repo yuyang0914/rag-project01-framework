@@ -45,8 +45,8 @@ const Indexing = () => {
 
   useEffect(() => {
     // 当数据库改变时，重置索引模式为该数据库的第一个可用模式
-    setIndexMode(dbConfigs[vectorDb].modes[0]);
-  }, [vectorDb]);
+    setIndexMode(dbConfigs[selectedProvider]?.modes[0] || 'standard');
+  }, [selectedProvider]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -223,7 +223,7 @@ const Indexing = () => {
                 onChange={(e) => setIndexMode(e.target.value)}
                 className="block w-full p-2 border rounded"
               >
-                {dbConfigs[vectorDb].modes.map(mode => (
+                {dbConfigs[selectedProvider]?.modes.map(mode => (
                   <option key={mode} value={mode}>
                     {mode.toUpperCase()}
                   </option>

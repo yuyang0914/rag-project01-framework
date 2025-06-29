@@ -6,8 +6,10 @@ import logging
 from pathlib import Path
 from pymilvus import connections, utility
 from pymilvus import Collection, DataType, FieldSchema, CollectionSchema
-from utils.config import VectorDBProvider, MILVUS_CONFIG  # Updated import
+from utils.config import VectorDBProvider, MILVUS_CONFIG, CHROMA_CONFIG  # Updated import
 from pypinyin import lazy_pinyin, Style
+import chromadb
+from chromadb.config import Settings
 
 logger = logging.getLogger(__name__)
 
@@ -26,6 +28,7 @@ class VectorDBConfig:
         self.provider = provider
         self.index_mode = index_mode
         self.milvus_uri = MILVUS_CONFIG["uri"]
+        self.chroma_persist_directory = CHROMA_CONFIG["persist_directory"]
 
     def _get_milvus_index_type(self, index_mode: str) -> str:
         """
@@ -50,6 +53,18 @@ class VectorDBConfig:
             对应的Milvus索引参数字典
         """
         return MILVUS_CONFIG["index_params"].get(index_mode, {})
+    
+    def _get_chroma_index_params(self, index_mode: str) -> Dict[str, Any]:
+        """
+        根据索引模式获取Chroma索引参数
+        
+        参数:
+            index_mode: 索引模式
+            
+        返回:
+            对应的Chroma索引参数字典
+        """
+        return CHROMA_CONFIG["index_params"].get(index_mode, {})
 
 class VectorStoreService:
     """
@@ -106,6 +121,10 @@ class VectorStoreService:
         # 根据不同的数据库进行索引
         if config.provider == VectorDBProvider.MILVUS:
             result = self._index_to_milvus(embeddings_data, config)
+        elif config.provider == VectorDBProvider.CHROMA:
+            result = self._index_to_chroma(embeddings_data, config)
+        else:
+            raise ValueError(f"Unsupported vector database provider: {config.provider}")
         
         end_time = datetime.now()
         processing_time = (end_time - start_time).total_seconds()
@@ -291,6 +310,101 @@ class VectorStoreService:
         finally:
             connections.disconnect("default")
 
+    def _index_to_chroma(self, embeddings_data: Dict[str, Any], config: VectorDBConfig) -> Dict[str, Any]:
+        """
+        将嵌入向量索引到Chroma数据库
+        
+        参数:
+            embeddings_data: 嵌入向量数据
+            config: 向量数据库配置对象
+            
+        返回:
+            索引结果信息字典
+        """
+        try:
+            # 使用 filename 作为 collection 名称前缀
+            filename = embeddings_data.get("filename", "")
+            # 如果有 .pdf 后缀，移除它
+            base_name = filename.replace('.pdf', '') if filename else "doc"
+            
+            # Convert Chinese characters to pinyin
+            base_name = ''.join(lazy_pinyin(base_name, style=Style.NORMAL))
+            
+            # Replace hyphens with underscores in the base name
+            base_name = base_name.replace('-', '_')
+            
+            # Ensure the collection name starts with a letter or underscore
+            if not base_name[0].isalpha() and base_name[0] != '_':
+                base_name = f"_{base_name}"
+            
+            # Get embedding provider
+            embedding_provider = embeddings_data.get("embedding_provider", "unknown")
+            timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+            collection_name = f"{base_name}_{embedding_provider}_{timestamp}"
+            
+            # 确保Chroma存储目录存在
+            os.makedirs(config.chroma_persist_directory, exist_ok=True)
+            
+            # 创建Chroma客户端
+            client = chromadb.PersistentClient(
+                path=config.chroma_persist_directory,
+                settings=Settings(
+                    anonymized_telemetry=False
+                )
+            )
+            
+            # 创建或获取collection
+            collection = client.create_collection(
+                name=collection_name,
+                metadata={
+                    "description": f"Collection for {collection_name}",
+                    "embedding_provider": embedding_provider,
+                    "embedding_model": embeddings_data.get("embedding_model", ""),
+                    "vector_dimension": embeddings_data.get("vector_dimension", ""),
+                    "index_mode": config.index_mode
+                }
+            )
+            
+            # 准备数据
+            documents = []
+            metadatas = []
+            ids = []
+            embeddings = []
+            
+            for i, emb in enumerate(embeddings_data["embeddings"]):
+                documents.append(str(emb["metadata"].get("content", "")))
+                metadatas.append({
+                    "document_name": embeddings_data.get("filename", ""),
+                    "chunk_id": str(emb["metadata"].get("chunk_id", 0)),
+                    "total_chunks": str(emb["metadata"].get("total_chunks", 0)),
+                    "word_count": str(emb["metadata"].get("word_count", 0)),
+                    "page_number": str(emb["metadata"].get("page_number", 0)),
+                    "page_range": str(emb["metadata"].get("page_range", "")),
+                    "embedding_provider": embeddings_data.get("embedding_provider", ""),
+                    "embedding_model": embeddings_data.get("embedding_model", ""),
+                    "embedding_timestamp": str(emb["metadata"].get("embedding_timestamp", ""))
+                })
+                ids.append(f"doc_{i}")
+                embeddings.append([float(x) for x in emb.get("embedding", [])])
+            
+            # 插入数据
+            logger.info(f"Inserting {len(embeddings)} vectors to Chroma collection: {collection_name}")
+            collection.add(
+                documents=documents,
+                metadatas=metadatas,
+                ids=ids,
+                embeddings=embeddings
+            )
+            
+            return {
+                "index_size": len(embeddings),
+                "collection_name": collection_name
+            }
+            
+        except Exception as e:
+            logger.error(f"Error indexing to Chroma: {str(e)}")
+            raise
+
     def list_collections(self, provider: str) -> List[str]:
         """
         列出指定提供商的所有集合
@@ -308,6 +422,18 @@ class VectorStoreService:
                 return collections
             finally:
                 connections.disconnect("default")
+        elif provider == VectorDBProvider.CHROMA:
+            try:
+                os.makedirs(CHROMA_CONFIG["persist_directory"], exist_ok=True)
+                client = chromadb.PersistentClient(
+                    path=CHROMA_CONFIG["persist_directory"],
+                    settings=Settings(anonymized_telemetry=False)
+                )
+                collections = client.list_collections()
+                return [col.name for col in collections]
+            except Exception as e:
+                logger.error(f"Error listing Chroma collections: {str(e)}")
+                return []
         return []
 
     def delete_collection(self, provider: str, collection_name: str) -> bool:
@@ -328,6 +454,17 @@ class VectorStoreService:
                 return True
             finally:
                 connections.disconnect("default")
+        elif provider == VectorDBProvider.CHROMA:
+            try:
+                client = chromadb.PersistentClient(
+                    path=CHROMA_CONFIG["persist_directory"],
+                    settings=Settings(anonymized_telemetry=False)
+                )
+                client.delete_collection(collection_name)
+                return True
+            except Exception as e:
+                logger.error(f"Error deleting Chroma collection: {str(e)}")
+                return False
         return False
 
     def get_collection_info(self, provider: str, collection_name: str) -> Dict[str, Any]:
@@ -352,4 +489,20 @@ class VectorStoreService:
                 }
             finally:
                 connections.disconnect("default")
+        elif provider == VectorDBProvider.CHROMA:
+            try:
+                client = chromadb.PersistentClient(
+                    path=CHROMA_CONFIG["persist_directory"],
+                    settings=Settings(anonymized_telemetry=False)
+                )
+                collection = client.get_collection(collection_name)
+                count = collection.count()
+                return {
+                    "name": collection_name,
+                    "num_entities": count,
+                    "metadata": collection.metadata
+                }
+            except Exception as e:
+                logger.error(f"Error getting Chroma collection info: {str(e)}")
+                return {}
         return {}

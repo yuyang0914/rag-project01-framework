@@ -3,9 +3,11 @@ import logging
 from datetime import datetime
 from pymilvus import connections, Collection, utility
 from services.embedding_service import EmbeddingService
-from utils.config import VectorDBProvider, MILVUS_CONFIG
+from utils.config import VectorDBProvider, MILVUS_CONFIG, CHROMA_CONFIG
 import os
 import json
+import chromadb
+from chromadb.config import Settings
 
 logger = logging.getLogger(__name__)
 
@@ -32,7 +34,8 @@ class SearchService:
             List[Dict[str, str]]: 支持的向量数据库提供商列表
         """
         return [
-            {"id": VectorDBProvider.MILVUS.value, "name": "Milvus"}
+            {"id": VectorDBProvider.MILVUS.value, "name": "Milvus"},
+            {"id": VectorDBProvider.CHROMA.value, "name": "Chroma"}
         ]
 
     def list_collections(self, provider: str = VectorDBProvider.MILVUS.value) -> List[Dict[str, Any]]:
@@ -49,32 +52,56 @@ class SearchService:
             Exception: 连接或查询集合时发生错误
         """
         try:
-            connections.connect(
-                alias="default",
-                uri=self.milvus_uri
-            )
-            
-            collections = []
-            collection_names = utility.list_collections()
-            
-            for name in collection_names:
-                try:
-                    collection = Collection(name)
-                    collections.append({
-                        "id": name,
-                        "name": name,
-                        "count": collection.num_entities
-                    })
-                except Exception as e:
-                    logger.error(f"Error getting info for collection {name}: {str(e)}")
-            
-            return collections
-            
+            if provider == VectorDBProvider.MILVUS:
+                connections.connect(
+                    alias="default",
+                    uri=self.milvus_uri
+                )
+                
+                collections = []
+                collection_names = utility.list_collections()
+                
+                for name in collection_names:
+                    try:
+                        collection = Collection(name)
+                        collections.append({
+                            "id": name,
+                            "name": name,
+                            "count": collection.num_entities
+                        })
+                    except Exception as e:
+                        logger.error(f"Error getting info for collection {name}: {str(e)}")
+                
+                return collections
+                
+            elif provider == VectorDBProvider.CHROMA:
+                os.makedirs(CHROMA_CONFIG["persist_directory"], exist_ok=True)
+                client = chromadb.PersistentClient(
+                    path=CHROMA_CONFIG["persist_directory"],
+                    settings=Settings(anonymized_telemetry=False)
+                )
+                
+                collections = []
+                chroma_collections = client.list_collections()
+                
+                for col in chroma_collections:
+                    try:
+                        collections.append({
+                            "id": col.name,
+                            "name": col.name,
+                            "count": col.count()
+                        })
+                    except Exception as e:
+                        logger.error(f"Error getting info for Chroma collection {col.name}: {str(e)}")
+                
+                return collections
+                
         except Exception as e:
             logger.error(f"Error listing collections: {str(e)}")
             raise
         finally:
-            connections.disconnect("default")
+            if provider == VectorDBProvider.MILVUS:
+                connections.disconnect("default")
 
     def save_search_results(self, query: str, collection_id: str, results: List[Dict[str, Any]]) -> str:
         """
